@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 import Main from './components/Main'
-import QuestionBrowser from './components/QuestionBrowser'
-import FavoriteView from './components/FavoriteView'
-import QuestionView from './components/QuestionView'
-import QuestionDetail from './components/QuestionDetail'
+import QuestionBrowser from './components/containers/BrowserContainer'
+import FavoriteView from './components/containers/FavoriteView'
+import QuestionView from './components/containers/QuestionView'
+import QuestionDetail from './components/questions/QuestionDetail'
 
 
 const routes = (

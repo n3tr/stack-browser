@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import { Link } from 'react-router'
 import QuestionListItemTags from './QuestionListItemTags'
 import FavoriteButton from './FavoriteButton'
-import { addFavorite, removeFavorite } from '../actions/QuestionAction'
+import { addFavorite, removeFavorite } from '../../actions/QuestionAction'
 
 class QuestionListItem extends React.Component {
   onClickFavorite() {

@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
-import { questionById } from '../utils/stackApi'
-import QuestionListItem from './QuestionListItem'
-import QuestionDetailBody from './QuestionDetailBody'
+import { questionById } from '../../utils/stackApi'
+import QuestionListItem from '../questions/QuestionListItem'
+import QuestionDetailBody from '../questions/QuestionDetailBody'
 
 class QuestionDetail extends React.Component {
 

@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
-import FavoriteStore from '../stores/FavoriteStore'
-import QuestionList from './QuestionList'
+import FavoriteStore from '../../stores/FavoriteStore'
+import QuestionList from '../questions/QuestionList'
 
 class FavoriteView extends React.Component {
 

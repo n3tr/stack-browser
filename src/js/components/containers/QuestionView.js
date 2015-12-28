@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
-import QuestionStore from '../stores/QuestionStore'
-import FavoriteStore from '../stores/FavoriteStore'
-import QuestionList from './QuestionList'
+import QuestionStore from '../../stores/QuestionStore'
+import FavoriteStore from '../../stores/FavoriteStore'
+import QuestionList from '../questions/QuestionList'
 
-import { fetchQuestionsByTag } from '../actions/QuestionAction'
+import { fetchQuestionsByTag } from '../../actions/QuestionAction'
 
 class QuestionView extends React.Component {
 
