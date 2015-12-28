@@ -11,8 +11,12 @@ class Header extends React.Component {
               <a className="navbar-brand" href="#">Stack Browser</a>
             </div>
             <ul className="nav navbar-nav">
-              <li className="active"><Link to="/questions">Browser</Link></li>
-              <li><Link to="/favorite">Favorite</Link></li>
+              <li>
+                <Link to="/questions">Browser</Link>
+              </li>
+              <li>
+                <Link to="/favorite">Favorite</Link>
+              </li>
             </ul>
           </div>
         </nav>
